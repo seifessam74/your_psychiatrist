@@ -3,7 +3,7 @@ import 'package:your_psychiatrist/core/routing/app_router.dart';
 import 'psychiatrist.dart';
 
 void main() {
-  runApp(
+  runApp(  
     Psychiatrist(
       appRouter: AppRouter(),
     ),
