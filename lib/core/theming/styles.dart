@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:your_psychiatrist/core/theming/colors.dart';
 
 class TextStyles {
   static TextStyle font36WhitetPtserif = TextStyle(
     fontSize: 36.sp,
-    color: Color.fromRGBO(255, 255, 255, 1),
+    color: Colors.white,
     fontFamily: 'PTSerif',
   );
 
   static TextStyle font24WhitetPtserif = TextStyle(
     fontSize: 24.sp,
-    color: Color.fromRGBO(255, 255, 255, 1),
+    color: Colors.white,
     fontFamily: 'PTSerif',
   );
 
-  static TextStyle font16WhitePoppins = TextStyle(
+  static TextStyle font16WhitePoppinsUnderlined = TextStyle(
     color: Colors.white,
     fontSize: 13.sp,
     fontWeight: FontWeight.bold,
@@ -26,7 +27,30 @@ class TextStyles {
 
   static TextStyle font13SemiTransparentWhitePoppins = TextStyle(
     fontSize: 13.sp,
-    color: Color.fromRGBO(255, 255, 255, 0.49),
-    //fontFamily: 'Poppins',
+    color: ColorsManager.semiTransparentWhite,
+  );
+
+  static TextStyle font40BlueMidnightPoppins = TextStyle(
+    fontSize: 40.sp,
+    color: ColorsManager.blueMidNight,
+    fontFamily: 'Poppins',
+  );
+
+  static TextStyle font16BlueMidnightPoppins = TextStyle(
+    fontSize: 16.sp,
+    color: ColorsManager.buttonTextColor,
+    fontFamily: 'Poppins',
+  );
+
+  static TextStyle font10WhitePoppins = TextStyle(
+    fontSize: 10.sp,
+    color: Colors.white,
+    fontFamily: 'Poppins',
+  );
+
+  static TextStyle font16WhitePoppins = TextStyle(
+    fontSize: 16.sp,
+    color: Colors.white,
+    fontFamily: 'Poppins',
   );
 }

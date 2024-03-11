@@ -30,7 +30,7 @@ class OnboardingScreen extends StatelessWidget {
                 },
                 child: Text(
                   'Skip Intro',
-                  style: TextStyles.font16WhitePoppins,
+                  style: TextStyles.font16WhitePoppinsUnderlined,
                 ),
               ),
             ),
