@@ -34,6 +34,26 @@ class TextStyles {
     fontSize: 40.sp,
     color: ColorsManager.blueMidNight,
     fontFamily: 'Poppins',
+    shadows: [
+      Shadow(
+        blurRadius: 4.0,
+        color: Color.fromRGBO(0, 0, 0, 0.25),
+        offset: Offset(0, 4),
+      ),
+    ],
+  );
+
+  static TextStyle font32BlueMidnightPoppins = TextStyle(
+    fontSize: 32.sp,
+    color: ColorsManager.blueMidNight,
+    fontFamily: 'Poppins',
+    shadows: [
+      Shadow(
+        blurRadius: 4.0,
+        color: Color.fromRGBO(0, 0, 0, 0.25),
+        offset: Offset(0, 4),
+      ),
+    ],
   );
 
   static TextStyle font16BlueMidnightPoppins = TextStyle(
