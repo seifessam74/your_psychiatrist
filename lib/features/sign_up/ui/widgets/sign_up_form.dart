@@ -20,7 +20,7 @@ class _SignUpFormState extends State<SignUpForm> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 655.h,
+      height: 600.h,
       decoration: BoxDecoration(
         color: ColorsManager.mainBlue,
         borderRadius: BorderRadius.only(
@@ -98,7 +98,7 @@ class _SignUpFormState extends State<SignUpForm> {
                       ),
                     ),
                   ),
-                  verticalSpace(100),
+                  verticalSpace(50),
                   AppTextButton(
                     buttonWidth: 200,
                     buttonHeight: 55,
