@@ -1,10 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:your_psychiatrist/core/helpers/extensions.dart';
 import 'package:your_psychiatrist/core/helpers/spacing.dart';
-import 'package:your_psychiatrist/core/theming/styles.dart';
-import 'package:your_psychiatrist/core/widgets/app_text_button.dart';
 import 'package:your_psychiatrist/core/widgets/go_back_icon_button.dart';
 import 'package:your_psychiatrist/features/login/widgets/login_form.dart';
 import 'package:your_psychiatrist/features/login/widgets/login_text_and_image.dart';

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:your_psychiatrist/core/helpers/extensions.dart';
 import 'package:your_psychiatrist/core/helpers/spacing.dart';
 import 'package:your_psychiatrist/core/theming/colors.dart';
 import 'package:your_psychiatrist/core/theming/styles.dart';
