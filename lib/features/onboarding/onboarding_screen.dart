@@ -26,11 +26,11 @@ class OnboardingScreen extends StatelessWidget {
               right: 20.w,
               child: GestureDetector(
                 onTap: () {
-                  context.pushNamed(Routes.loginScreen);
+                  context.pushNamed(Routes.signUpScreen);
                 },
                 child: Text(
                   'Skip Intro',
-                  style: TextStyles.font16WhitePoppins,
+                  style: TextStyles.font16WhitePoppinsUnderlined,
                 ),
               ),
             ),
